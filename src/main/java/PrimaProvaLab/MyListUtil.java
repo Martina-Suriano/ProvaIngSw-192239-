@@ -3,7 +3,7 @@ package PrimaProvaLab;
 
 public class MyListUtil {
 	
-	public void orderNumber(int [] list) {
+	public int[] orderNumber(int [] list) {
 		int l= list.length;
 		boolean change;
 		for (int i=0; i<l; i++) {
@@ -18,7 +18,7 @@ public class MyListUtil {
 			if (!change)
 				break;
 		}
-		
+		return list;
 	}
 
 	
