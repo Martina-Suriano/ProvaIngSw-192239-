@@ -14,6 +14,7 @@ public class MyListUtil {
 					list [j-1]= list[j];
 					change=true;
 				}
+				
 			}
 			if (!change)
 				break;
