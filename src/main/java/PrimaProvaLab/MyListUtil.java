@@ -12,6 +12,7 @@ public class MyListUtil {
 				if (list[j-1] > list[j]) {
 					int temp= list[j-1];
 					list [j-1]= list[j];
+					list[j]= temp;
 					change=true;
 				}
 				
